@@ -374,8 +374,8 @@ sub insert_many {
 
     $res = $coll->delete_one( $filter );
 
-Deletes a single document matching the filter from the collection
-and returns a L<MongoDB::DeleteResult> object.
+Deletes a single document that matches the filter and returns a
+L<MongoDB::DeleteResult> object.
 
 The filter provides the L<query
 criteria|http://docs.mongodb.org/manual/tutorial/query-documents/> to select a
@@ -403,8 +403,8 @@ sub delete_one {
 
     $res = $coll->delete_one( $filter );
 
-Deletes all documents that match the filter from the collection
-and returns a L<MongoDB::DeleteResult> object.
+Deletes all documents that match the filter and returns a
+L<MongoDB::DeleteResult> object.
 
 The filter provides the L<query
 criteria|http://docs.mongodb.org/manual/tutorial/query-documents/> to select a
